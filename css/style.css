@@ -260,6 +260,7 @@ ol {
 #travel div img {
     grid-column: 2;
     grid-row: -1;
+    width:400px;
 }
  .animated {
     animation-duration: 3s;
