@@ -248,6 +248,12 @@ ol {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
- 
- 
+ #travel div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ #travel div p {
+    grid-column: 2;
+ }
+
 }
