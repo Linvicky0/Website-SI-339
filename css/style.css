@@ -1,0 +1,253 @@
+body{
+    background-color:#B3C7F7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+p {
+ line-height: 25px;
+}
+h1 {
+    color:brown;
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    color:darkblue;
+    font-size: 25px;
+    margin: 10px;
+}
+h3 {
+    color:rgb(63, 0, 139);
+    font-size: 20px;
+    margin: 10px;
+}
+img {
+    border:solid 5px black;
+    padding:10px;
+    margin:20px;
+    border-top-right-radius: 30px;
+}
+
+
+nav {
+    border:2px solid black;
+}
+li {
+    margin-left: 50px;
+}
+nav a{
+    padding: 5px;
+    background-color: pink;
+    margin: 25px;
+    display: inline-block;
+}
+
+nav li {
+    text-transform: uppercase;
+}
+
+body{
+    padding: 15px;
+}
+a {
+    position: relative;
+    color: blue;
+}
+/* .imglink {
+    top: -22px;
+    left:-10px;
+} */
+:focus {
+    text-decoration: underline;
+}
+#skip {
+    position: absolute;
+    left: -500px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#skip:focus {
+    position: absolute;
+    margin: auto;
+    left:initial;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+    width:100%;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+}
+ol {
+    list-style-type: decimal;
+ }
+ ul {
+    list-style-type: square;
+ }
+ 
+
+@media (prefers-reduced-motion: reduce) {
+    html{
+        scroll-behavior: auto;
+    }
+  * {
+    animation: none;
+    background-attachment: fixed;
+    transition: none;
+  }
+    .skip a{
+      -webkit-transition: none; 
+      transition: none;        
+     }
+   
+    header{
+      background-attachment: initial;
+    }
+    .animated {
+        animation: none;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px){
+    html, body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    img{
+        display: block;
+        margin: auto;
+        width: 65%;
+    }
+    .pet {
+        padding: 10px;
+        border: 2px black solid;
+    }
+    .grid-basil {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .active {
+        color: black;
+        font-weight: bold;
+        background-color: lightyellow;
+    }
+   h2 {
+    text-align: center;
+   }
+   a{
+    position: inherit;
+    text-align: center;
+    display: block;
+   }
+   nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+   }
+   nav ul li {
+    display: block;
+    text-align: center;
+   }
+   nav a {
+    margin: 10px;
+   }
+   p {
+    margin: 10px;
+   }
+   img {
+    max-height: 300px;
+    max-width: 400px;
+   }
+   .grid-basil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   .pet ul {
+    margin-left: 15px;
+   }
+    .pet ul li {
+        position: relative;
+        margin: auto 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    span {
+        position: relative;
+    }
+ h4 {
+    margin: 10px;
+ }
+.grid-recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.animated {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left:100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+}
+@media screen and (min-width: 600px) and (max-width: 1100px){
+    nav ul li{
+        display: inline-block;
+        margin: auto;
+        align-items: center;
+        width:100%;
+    }
+    .grid-basil {
+        display: grid;
+        padding-right:30px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        border: 2px black solid;
+       }
+       .grid-basil img {
+        border:2px dotted black;
+        height:200px;
+        width:200px;
+       }
+    .float img {
+        float:left;
+        width: 200px;
+    }
+    
+   
+    .pet p {
+        margin-top:20px;
+        vertical-align: middle;
+    }
+  
+    .pet ul {
+        padding:10px;
+        list-style-type: square;
+
+    }
+    .pet ul li{
+        list-style-type: square;
+    }
+    #recipes ul {
+        display: inline-block;
+    }
+    .grid-recipes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+ 
+ 
+}
