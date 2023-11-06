@@ -245,16 +245,22 @@ ol {
     }
     .grid-recipes {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
     }
  #travel div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
- }
- #travel div p {
-    grid-column:  2;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
  }
 
+ #travel div p {
+    grid-column: 2;
+    margin-top: 10px;
+ }
+#travel div img {
+    grid-column: 2;
+    grid-row: -1;
+}
  .animated {
     animation-duration: 3s;
     animation-name: fadeIn;
