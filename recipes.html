@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/style.css">
     <title>Recipes</title>
 </head>
@@ -29,9 +32,13 @@
                     <span>Category: Main Dish</span>
             
                     <img src="images/tikkamasala_1.jpg" width = "400" height="300" alt="Delicious chicken">
-                 
-                    <h3>Recipe Ingredients</h3>
+                    <span onclick = "expandIcon(this)" class="material-symbols-outlined">
+                        info
+                        </span>
+                        <p class = "hidden"> Contains meat, dairy, gluten </p>
 
+                    <h3>Recipe Ingredients</h3>
+                   
                     <h4>Chicken Marinade</h4>
                     <ul>
                     <li>3 boneless, skinless chicken breasts</li>
@@ -91,6 +98,10 @@
                 <div>
                     <h2> Strawberry Banana Smoothie </h2>
                     <img width = "200"  src = "images/smoothie.jpeg" alt = "Strawberry Banana">
+                    <span onclick = "expandIcon(this)" class="material-symbols-outlined">
+                        info
+                        </span>
+                        <p class = "hidden"> Contains dairy</p>
                     <h3> Recipe ingredients: </h3>
                     <ul>
                         <li> One cup of stawberry</li>
@@ -112,6 +123,10 @@
                         Fruity peanut butter flavored oatmeal
                     </h2>
                     <img width = "200" src = "images/oatmeal.webp" alt = "Oatmeal">
+                    <span onclick = "expandIcon(this)" class="material-symbols-outlined">
+                        info
+                        </span>
+                        <p class = "hidden"> Contains nuts, gluten, and dairy</p>
                     <h3> Recipe ingredients: </h3>
                     <ul>
                         <li>A tablespoon of peanut butter</li>
@@ -129,5 +144,6 @@
                     </ol>
                 </div>
                 </main>
+                <script src="javascript.js"></script>
             </body>
             </html>
