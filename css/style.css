@@ -164,6 +164,7 @@ p {
  h2 {
    margin-top: 30px;
    margin-right:50%;
+   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .grid-recipes img{
     margin-top: 100px;
@@ -218,9 +219,7 @@ nav a {
 nav ul li {
     margin-left: 50px;
 }
-h2 {
-    font-family: 'Kdam Thmor Pro', sans-serif;
-}
+
 }
 @media (prefers-reduced-motion: reduce) {
     html{
