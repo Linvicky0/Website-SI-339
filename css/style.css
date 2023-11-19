@@ -299,8 +299,10 @@ ol {
     body {
         background-image: url('../images/transparentbg.png');
         background-repeat: no-repeat;
-        background-size: 250%;
-    
+        background-size: 300%;
+    }
+    .float  {
+        background-image: none;
     }
     #recipes .grid-recipes img:first-of-type {
     
@@ -311,7 +313,6 @@ ol {
         height: 25%;
         width: 22%;
         background-image: none;
-    
     }
     
     ul, ol {
