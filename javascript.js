@@ -1,5 +1,5 @@
 function expandIcon(element) {
-alert(element.nextElementSibling.innerHTML)
+alert(element.nextElementSibling.innerHTML);
 }
 images = document.querySelectorAll('img')
 images.forEach(image => {
