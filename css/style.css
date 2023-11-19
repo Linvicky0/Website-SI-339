@@ -169,6 +169,7 @@ p {
   img:hover {
     border-radius: 60%;
   }
+  /* heart icon */
    h2:before {
     content: '\f004';
     font-family: FontAwesome;
@@ -177,7 +178,7 @@ p {
     margin:0px 0px 0px 10px;
     text-decoration:none;
   }
- 
+   /* home icon */
   .active:before {
     font-family: FontAwesome;
     content: "\f015";
@@ -185,7 +186,7 @@ p {
     padding-right: 3px;
     vertical-align: middle; 
  }
- 
+
   @keyframes example {
    
       0% {
